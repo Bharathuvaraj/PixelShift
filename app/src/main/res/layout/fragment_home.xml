@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeFragment">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <ScrollView android:id="@+id/home"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <RelativeLayout android:id="@+id/content_container"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <RelativeLayout android:id="@+id/page_home_ek1"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginStart="0dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    >
+
+                    <View
+                        android:id="@+id/_bg__home_ek2"
+                        android:layout_width="413dp"
+                        android:layout_height="930dp"
+                        android:layout_marginStart="0dp"
+                        android:layout_marginTop="0dp"
+                        android:background="@drawable/_bg__home_ek2_shape" />
+
+                    <RelativeLayout android:id="@+id/component_1"
+                        android:layout_marginTop="26dp"
+                        android:layout_marginStart="14dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        >
+
+                        <ImageView android:id="@+id/ellipse_2"
+                            android:src="@drawable/ps_logo"
+                            android:contentDescription="ellipse_2"
+                            android:layout_marginStart="-4dp"
+                            android:layout_marginTop="-7dp"
+                            android:layout_width="54dp"
+                            android:layout_height="54dp" />
+
+                        <TextView android:id="@+id/pixelshift"
+                            android:textStyle="bold"
+                            android:textSize="15sp"
+                            android:shadowRadius="4"
+                            android:shadowColor="#000000"
+                            android:shadowDx="0"
+                            android:shadowDy="3"
+                            android:textColor="@color/rectangle_6_color"
+                            android:layout_marginLeft="46dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="21.2dp"
+                            android:text="@string/pixelshift_string"
+                            />
+
+                        <TextView android:id="@+id/edit_your_image"
+                            android:shadowColor="#000000"
+                            android:shadowDx="0"
+                            android:textColor="@color/rectangle_6_color"
+                            android:layout_marginLeft="47dp"
+                            android:layout_marginTop="23dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="10dp"
+                            android:text="@string/edit_your_image_string"
+                            />
+
+                    </RelativeLayout>
+
+                    <ImageView
+                        android:id="@+id/line_1"
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginStart="14dp"
+                        android:layout_marginTop="80dp"
+                        android:contentDescription="line_1"
+                        android:src="@color/white" />
+
+                    <TextView android:id="@+id/home_ek3"
+                        android:textSize="12sp"
+                        android:textColor="@color/rectangle_6_color"
+                        android:layout_marginTop="86dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="16.2dp"
+                        android:layout_centerHorizontal="true"
+                        android:text="@string/home_ek3_string"
+                        />
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <View   android:id="@+id/rectangle_58"
+                            android:background="@color/white"
+                            android:layout_marginStart="15dp"
+                            android:layout_marginTop="146dp"
+                            android:layout_centerHorizontal="true"
+                            android:layout_width="350dp"
+                            android:layout_height="370dp" />
+
+                        <TextView android:id="@+id/pixelshift_application_is_a_image_editing_platform__then_the_features_are_"
+                            android:textSize="19sp"
+                            android:textColor="@color/_bg__home_ek2_color"
+                            android:layout_marginLeft="28dp"
+                            android:layout_marginTop="358dp"
+                            android:layout_width="318.9dp"
+                            android:layout_height="51.9dp"
+                            android:layout_centerHorizontal="true"
+                            android:text="@string/pixelshift_application_is_a_image_editing_platform__then_the_features_are__string"
+                            />
+
+                        <TextView android:id="@+id/crop___rotate_adjustments_filters___effects_text___typography_drawing___painting"
+                            android:textColor="@color/_bg__home_ek2_color"
+                            android:layout_marginLeft="62dp"
+                            android:layout_marginTop="406dp"
+                            android:layout_width="108dp"
+                            android:layout_height="wrap_content"
+                            android:text="@string/crop___rotate_adjustments_filters___effects_text___typography_drawing___painting_string"
+                            />
+
+                        <TextView android:id="@+id/layers___masks_retouch___healing_undo___redo_export___share_templates___presets"
+                            android:textColor="@color/_bg__home_ek2_color"
+                            android:layout_marginLeft="220dp"
+                            android:layout_marginTop="407dp"
+                            android:layout_width="113dp"
+                            android:layout_height="wrap_content"
+                            android:text="@string/layers___masks_retouch___healing_undo___redo_export___share_templates___presets_string"
+                            />
+
+                        <ImageView
+                            android:id="@+id/_rectangle_59"
+                            android:layout_width="350dp"
+                            android:layout_height="225dp"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginStart="0dp"
+                            android:layout_marginTop="127dp"
+                            android:contentDescription="_rectangle_59"
+                            android:src="@drawable/_rectangle_59" />
+
+                        <ImageView android:id="@+id/line_3"
+                            android:src="@drawable/line_3"
+                            android:contentDescription="line_3"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginStart="136dp"
+                            android:layout_marginTop="405dp"
+                            android:layout_width="86.01dp"
+                            android:layout_height="86.01dp" />
+                    </RelativeLayout>
+
+                </RelativeLayout>
+
+            </RelativeLayout>
+
+
+
+        </ScrollView>
+    </LinearLayout>
+
+</FrameLayout>

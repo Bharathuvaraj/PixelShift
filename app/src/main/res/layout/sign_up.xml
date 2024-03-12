@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+
+	<!-- Scroll View -->
+	<ScrollView android:id="@+id/sign_up"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		tools:ignore="MissingConstraints">
+
+		<RelativeLayout android:id="@+id/content_container"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content" >
+
+			<View   android:id="@+id/_bg__sign_in"
+				android:background="@drawable/_bg__sign_in_shape"
+				android:layout_width="413dp"
+				android:layout_height="930dp"
+				android:layout_marginStart="0dp"
+				android:layout_marginTop="0dp" />
+
+			<ImageView
+				android:id="@+id/vector_2"
+				android:layout_width="360dp"
+				android:layout_height="271dp"
+				android:layout_marginStart="72dp"
+				android:layout_marginTop="529dp"
+				android:layout_alignParentBottom="true"
+				android:contentDescription="vector_2"
+				android:src="@drawable/vector_2" />
+
+			<ImageView android:id="@+id/vector_1"
+				android:src="@drawable/vector_1"
+				android:contentDescription="vector_1"
+				android:layout_marginStart="0dp"
+				android:layout_marginTop="0dp"
+				android:layout_width="202.41dp"
+				android:layout_height="184.38dp" />
+
+			<View   android:id="@+id/ellipse_3"
+				android:background="@drawable/ellipse_3_shape"
+				android:layout_marginStart="249dp"
+				android:layout_marginTop="13dp"
+				android:layout_width="57dp"
+				android:layout_height="57dp" />
+
+			<View   android:id="@+id/ellipse_5"
+				android:background="@drawable/ellipse_5_shape"
+				android:layout_marginStart="310dp"
+				android:layout_marginTop="666dp"
+				android:layout_width="57dp"
+				android:layout_height="57dp" />
+
+			<View   android:id="@+id/ellipse_4"
+				android:background="@drawable/ellipse_4_shape"
+				android:layout_marginStart="123dp"
+				android:layout_marginTop="70dp"
+				android:layout_width="37dp"
+				android:layout_height="37dp" />
+
+			<View   android:id="@+id/ellipse_6"
+				android:background="@drawable/ellipse_6_shape"
+				android:layout_marginStart="180dp"
+				android:layout_marginTop="750dp"
+				android:layout_width="37dp"
+				android:layout_height="37dp" />
+
+			<EditText  android:id="@+id/user_name"
+				android:hint="@string/user_name_hint"
+				android:inputType="textEmailAddress"
+				android:singleLine="true"
+				android:textColor="#000000"
+				android:textSize="14sp"
+				android:background="@drawable/rectangle_39_shape"
+				android:layout_marginStart="34dp"
+				android:layout_marginTop="224dp"
+				android:layout_width="352dp"
+				android:layout_centerHorizontal="true"
+				android:layout_height="52dp" />
+
+			<EditText android:id="@+id/register_email_editText"
+				android:hint="Email Address"
+				android:inputType="textEmailAddress"
+				android:singleLine="true"
+				android:textColor="#000000"
+				android:textSize="14sp"
+				android:background="@drawable/rectangle_41_shape"
+				android:layout_marginStart="35dp"
+				android:layout_marginTop="286dp"
+				android:layout_width="352dp"
+				android:layout_centerHorizontal="true"
+				android:layout_height="52dp" />
+
+			<EditText   android:id="@+id/register_password_editText"
+				android:hint="Password"
+				android:inputType="textPassword"
+				android:singleLine="true"
+				android:textColor="#000000"
+				android:textSize="14sp"
+				android:background="@drawable/rectangle_40_shape"
+				android:layout_marginStart="34dp"
+				android:layout_marginTop="347dp"
+				android:layout_width="352dp"
+				android:layout_centerHorizontal="true"
+				android:layout_height="52dp" />
+
+			<EditText  android:id="@+id/register_confirm_password_editText"
+				android:hint="Confirm Password"
+				android:inputType="textPassword"
+				android:singleLine="true"
+				android:textColor="#000000"
+				android:textSize="14sp"
+				android:background="@drawable/rectangle_42_shape"
+				android:layout_marginStart="34dp"
+				android:layout_marginTop="408dp"
+				android:layout_height="52dp"
+				android:layout_width="352dp"
+				android:layout_centerHorizontal="true"/>
+
+			<CheckBox
+				android:id="@+id/register_declaration_checkBox"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="470dp"
+				android:text="By clicking Register you agree to all the Terms and Privacy Policy of MedKlick."
+				android:textSize="12sp" />
+
+			<TextView android:id="@+id/sign_up_text"
+				android:textSize="30sp"
+				android:shadowRadius="4"
+				android:shadowColor="#000000"
+				android:shadowDx="0"
+				android:shadowDy="4"
+				android:textColor="@color/rectangle_6_color"
+				android:layout_marginLeft="129dp"
+				android:layout_marginTop="158dp"
+				android:layout_width="wrap_content"
+				android:layout_height="49dp"
+				android:text="@string/sign_up_string"
+				android:layout_centerHorizontal="true"
+				/>
+
+
+			<Button android:id="@+id/register_button"
+				android:background="@color/white"
+				android:layout_marginTop="525dp"
+				android:layout_width="261dp"
+				android:layout_height="38dp"
+				android:layout_centerHorizontal="true"
+				android:hint="CREATE ACCOUNT"/>
+
+
+			<TextView android:id="@+id/register_login_link_textView"
+				android:text="Already have an account? Login here."
+				android:textSize="18sp"
+				android:textColor="@color/rectangle_6_color"
+				android:layout_marginLeft="70dp"
+				android:layout_marginTop="584dp"
+				android:layout_width="wrap_content"
+				android:layout_height="24.8dp"
+				android:layout_centerHorizontal="true"
+				/>
+
+		</RelativeLayout>
+
+	</ScrollView>
+
+</LinearLayout>

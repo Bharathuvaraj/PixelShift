@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+
+	<!-- Scroll View -->
+			<ScrollView android:id="@+id/sign_in"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent" >
+
+				<RelativeLayout android:id="@+id/content_container"
+					android:layout_width="wrap_content"
+					android:layout_height="match_parent" >
+
+					<View   android:id="@+id/_bg__sign_in"
+						android:background="@drawable/_bg__sign_in_shape"
+						android:layout_width="413dp"
+						android:layout_height="930dp"
+						android:layout_marginStart="0dp"
+						android:layout_marginTop="0dp" />
+
+					<ImageView
+						android:id="@+id/vector_2"
+						android:layout_width="360dp"
+						android:layout_height="271dp"
+						android:layout_marginStart="62dp"
+						android:layout_marginTop="529dp"
+						android:layout_alignParentBottom="true"
+						android:contentDescription="vector_2"
+						android:src="@drawable/vector_2" />
+
+					<ImageView android:id="@+id/vector_1"
+						android:src="@drawable/vector_1"
+						android:contentDescription="vector_1"
+						android:layout_marginStart="0dp"
+						android:layout_marginTop="0dp"
+						android:layout_width="202.41dp"
+						android:layout_height="184.38dp" />
+
+					<View   android:id="@+id/ellipse_3"
+						android:background="@drawable/ellipse_3_shape"
+						android:layout_marginStart="249dp"
+						android:layout_marginTop="13dp"
+						android:layout_width="57dp"
+						android:layout_height="57dp" />
+
+					<View   android:id="@+id/ellipse_5"
+						android:background="@drawable/ellipse_5_shape"
+						android:layout_marginStart="310dp"
+						android:layout_marginTop="666dp"
+						android:layout_width="57dp"
+						android:layout_height="57dp" />
+
+					<View   android:id="@+id/ellipse_4"
+						android:background="@drawable/ellipse_4_shape"
+						android:layout_marginStart="123dp"
+						android:layout_marginTop="70dp"
+						android:layout_width="37dp"
+						android:layout_height="37dp" />
+
+					<View   android:id="@+id/ellipse_6"
+						android:background="@drawable/ellipse_6_shape"
+						android:layout_marginStart="180dp"
+						android:layout_marginTop="750dp"
+						android:layout_width="37dp"
+						android:layout_height="37dp" />
+					<RelativeLayout
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_centerHorizontal="true">
+						<EditText
+							android:background="@drawable/rectangle_39_shape"
+							android:layout_marginStart="34dp"
+							android:layout_marginTop="301dp"
+							android:layout_width="352dp"
+							android:layout_height="52dp"
+							android:layout_centerHorizontal="true"
+							android:id="@+id/email_editText"
+							android:drawablePadding="10dp"
+							android:hint="Email ID"
+							android:inputType="textEmailAddress"
+							android:singleLine="true"
+							android:textColor="#000000"
+							android:textSize="14sp"/>
+
+					</RelativeLayout>
+					<RelativeLayout
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_centerHorizontal="true">
+
+						<EditText
+							android:background="@drawable/rectangle_40_shape"
+							android:layout_marginStart="34dp"
+							android:layout_marginTop="366dp"
+							android:layout_width="352dp"
+							android:layout_height="52dp"
+							android:layout_centerHorizontal="true"
+							android:id="@+id/password_editText"
+							android:drawablePadding="10dp"
+							android:hint="Password"
+							android:inputType="textPassword"
+							android:singleLine="true"
+							android:textColor="#000000"
+							android:textSize="14sp"/>
+
+
+
+
+							<LinearLayout
+								android:layout_width="match_parent"
+								android:layout_height="wrap_content"
+								android:orientation="horizontal"
+								android:layout_marginTop="425dp">
+
+								<CheckBox
+									android:id="@+id/show_hide_password_checkBox"
+									android:layout_width="0dp"
+									android:layout_height="match_parent"
+									android:layout_marginStart="30dp"
+									android:layout_weight="1"
+									android:text="Show Password"
+									android:textSize="14sp"
+									android:textColor="@color/white"/>
+
+								<TextView
+									android:id="@+id/forgot_password_textView"
+									android:layout_width="0dp"
+									android:layout_height="match_parent"
+									android:layout_weight="1"
+									android:gravity="center"
+									android:text="Forgot Password?"
+									android:textSize="14sp"
+									android:textColor="@color/white"/>
+							</LinearLayout>
+
+							<ProgressBar
+								android:id="@+id/profile_progressBar"
+								android:layout_width="30dp"
+								android:layout_height="30dp"
+								android:layout_gravity="center|bottom"
+								android:layout_marginBottom="20dp"
+								android:visibility="gone" />
+					</RelativeLayout>
+
+
+					<RelativeLayout android:id="@+id/component_14"
+						android:layout_marginTop="464dp"
+						android:layout_marginStart="50dp"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_centerHorizontal="true"
+						>
+
+						<Button   android:id="@+id/login_button"
+							android:background="@drawable/rectangle_38_shape"
+							android:layout_marginStart="0dp"
+							android:layout_marginTop="0dp"
+							android:layout_width="261dp"
+							android:layout_height="48dp"
+							android:text="LOG IN"
+							android:textColor="@color/black"
+							/>
+
+						<TextView android:id="@+id/log_in"
+							android:textSize="15sp"
+							android:textColor="@color/_bg__sign_in_color"
+							android:layout_marginLeft="104dp"
+							android:layout_marginTop="5dp"
+							android:layout_width="wrap_content"
+							android:layout_height="20.5dp"
+							android:text="@string/log_in_string"
+							/>
+
+					</RelativeLayout>
+					<RelativeLayout
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_centerHorizontal="true">
+						<View   android:id="@+id/ellipse_8"
+							android:background="@drawable/ellipse_8_shape"
+							android:layout_marginStart="54dp"
+							android:layout_marginTop="222dp"
+							android:layout_width="43dp"
+							android:layout_height="43dp" />
+						<ImageView android:id="@+id/vector_ek5"
+							android:src="@drawable/vector_ek5"
+							android:contentDescription="vector_ek5"
+							android:layout_marginStart="64dp"
+							android:layout_marginTop="231dp"
+							android:layout_width="23dp"
+							android:layout_height="24dp" />
+						<View   android:id="@+id/ellipse_7"
+							android:background="@drawable/ellipse_7_shape"
+							android:layout_marginStart="132dp"
+							android:layout_marginTop="222dp"
+							android:layout_width="43dp"
+							android:layout_height="43dp" />
+						<ImageView android:id="@+id/vector_ek6"
+							android:src="@drawable/vector_ek6"
+							android:contentDescription="vector_ek6"
+							android:layout_marginStart="147dp"
+							android:layout_marginTop="231dp"
+							android:layout_width="12dp"
+							android:layout_height="24dp" />
+						<TextView android:id="@+id/sign_in_text"
+							android:textSize="30sp"
+							android:shadowRadius="4"
+							android:shadowColor="#000000"
+							android:shadowDx="0"
+							android:shadowDy="4"
+							android:textColor="@color/rectangle_6_color"
+							android:layout_marginLeft="128dp"
+							android:layout_marginTop="158dp"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:text="@string/sign_in_string"
+							android:layout_centerHorizontal="true"
+							/>
+
+
+					</RelativeLayout>
+
+					<TextView android:id="@+id/register_textView"
+						android:textSize="13sp"
+						android:textColor="@color/rectangle_6_color"
+						android:layout_marginLeft="73dp"
+						android:layout_marginTop="547dp"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:text="@string/_don_t_have_on_account_sign_up__string"
+
+						android:layout_centerHorizontal="true"/>
+
+				</RelativeLayout>
+
+			</ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

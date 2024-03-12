@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navHome"
+        android:title="@string/home"
+        android:icon="@drawable/_vector_ek1" />
+    <item
+        android:id="@+id/navTemplate"
+        android:title="@string/templates"
+        android:icon="@drawable/_vector_ek2"/>
+    <item
+        android:id="@+id/navEdit"
+        android:title="@string/editoption"
+        android:icon="@drawable/_vector_ek4"/>
+    <item
+        android:id="@+id/navProjects"
+        android:title="@string/projects"
+        android:icon="@drawable/_vector_ek3"/>
+    <item
+        android:id="@+id/navProfile"
+        android:title="@string/profile"
+        android:icon="@drawable/_vector"/>
+</menu>
