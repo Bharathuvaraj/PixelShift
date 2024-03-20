@@ -1,24 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <item
+    <item android:title="Home"
         android:id="@+id/navHome"
-        android:title="@string/home"
         android:icon="@drawable/_vector_ek1" />
-    <item
+    <item android:title="Templates"
         android:id="@+id/navTemplate"
-        android:title="@string/templates"
-        android:icon="@drawable/_vector_ek2"/>
-    <item
+        android:icon="@drawable/_vector_ek2" />
+    <item android:title="Edit"
         android:id="@+id/navEdit"
-        android:title="@string/editoption"
         android:icon="@drawable/_vector_ek4"/>
-    <item
+    <item android:title="Projects"
         android:id="@+id/navProjects"
-        android:title="@string/projects"
         android:icon="@drawable/_vector_ek3"/>
-    <item
+    <item android:title="Profile"
         android:id="@+id/navProfile"
-        android:title="@string/profile"
         android:icon="@drawable/_vector"/>
 </menu>

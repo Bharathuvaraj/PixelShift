@@ -1,21 +1,62 @@
 [versions]
 agp = "8.3.0"
+androidShapeImageview = "0.9.3"
+cropiwa = "1.0.3"
+dexter = "6.2.3"
+flipzeus = "0.0.1"
+glide = "4.16.0"
+gpuimagePlus = "2.6.3"
+indicatorseekbar = "2.1.2"
 junit = "4.13.2"
 junitVersion = "1.1.5"
 espressoCore = "3.5.1"
 appcompat = "1.6.1"
+lottie = "6.4.0"
 material = "1.11.0"
-activity = "1.8.0"
 constraintlayout = "2.1.4"
+lifecycleLivedataKtx = "2.6.1"
+lifecycleViewmodelKtx = "2.6.1"
+navigationFragment = "2.6.0"
+navigationUi = "2.6.0"
+activity = "1.8.0"
+navigationFragmentVersion = "2.7.7"
+navigationUiVersion = "2.7.7"
+simplecropview = "1.1.8"
+firebaseAuth = "22.3.1"
+firebaseDatabase = "20.3.1"
+exifinterface = "1.3.7"
+databindingCompiler = "8.3.0"
+googleServices = "4.4.1"
 
 [libraries]
+android-shape-imageview = { module = "com.github.siyamed:android-shape-imageview", version.ref = "androidShapeImageview" }
+compiler = { module = "com.github.bumptech.glide:compiler", version.ref = "glide" }
+cropiwa = { module = "com.steelkiwi:cropiwa", version.ref = "cropiwa" }
+dexter = { module = "com.karumi:dexter", version.ref = "dexter" }
+flipzeus = { module = "com.github.flipzeus:flipzeus", version.ref = "flipzeus" }
+glide = { module = "com.github.bumptech.glide:glide", version.ref = "glide" }
+gpuimage-plus = { module = "org.wysaid:gpuimage-plus", version.ref = "gpuimagePlus" }
+indicatorseekbar = { module = "com.github.warkiz.widget:indicatorseekbar", version.ref = "indicatorseekbar" }
 junit = { group = "junit", name = "junit", version.ref = "junit" }
 ext-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
 espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
 appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+lottie = { module = "com.airbnb.android:lottie", version.ref = "lottie" }
 material = { group = "com.google.android.material", name = "material", version.ref = "material" }
-activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
 constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+lifecycle-livedata-ktx = { group = "androidx.lifecycle", name = "lifecycle-livedata-ktx", version.ref = "lifecycleLivedataKtx" }
+lifecycle-viewmodel-ktx = { group = "androidx.lifecycle", name = "lifecycle-viewmodel-ktx", version.ref = "lifecycleViewmodelKtx" }
+navigation-fragment = { group = "androidx.navigation", name = "navigation-fragment", version.ref = "navigationFragment" }
+navigation-ui = { group = "androidx.navigation", name = "navigation-ui", version.ref = "navigationUi" }
+activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
+androidx-navigation-fragment = { group = "androidx.navigation", name = "navigation-fragment", version.ref = "navigationFragmentVersion" }
+androidx-navigation-ui = { group = "androidx.navigation", name = "navigation-ui", version.ref = "navigationUiVersion" }
+simplecropview = { module = "com.isseiaoki:simplecropview", version.ref = "simplecropview" }
+firebase-auth = { group = "com.google.firebase", name = "firebase-auth", version.ref = "firebaseAuth" }
+firebase-database = { group = "com.google.firebase", name = "firebase-database", version.ref = "firebaseDatabase" }
+androidx-exifinterface = { group = "androidx.exifinterface", name = "exifinterface", version.ref = "exifinterface" }
+androidx-databinding-compiler = { group = "androidx.databinding", name = "databinding-compiler", version.ref = "databindingCompiler" }
+google-services = { group = "com.google.gms", name = "google-services", version.ref = "googleServices" }
 
 [plugins]
 androidApplication = { id = "com.android.application", version.ref = "agp" }

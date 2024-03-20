@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "327284618740",
+    "project_id": "pixel-shift-08",
+    "storage_bucket": "pixel-shift-08.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:327284618740:android:d7b79ace3ffdec18b975a1",
+        "android_client_info": {
+          "package_name": "com.pixelshift.pish"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCodTYsYMkcGca9CGQfRY1W2kqgOwgG6E0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:327284618740:android:8f384164bc3ac959b975a1",
+        "android_client_info": {
+          "package_name": "com.pixelshift.shift"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCodTYsYMkcGca9CGQfRY1W2kqgOwgG6E0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

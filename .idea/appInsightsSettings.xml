@@ -8,10 +8,10 @@
             <InsightsFilterSettings>
               <option name="connection">
                 <ConnectionSetting>
-                  <option name="appId" value="PLACEHOLDER" />
-                  <option name="mobileSdkAppId" value="" />
-                  <option name="projectId" value="" />
-                  <option name="projectNumber" value="" />
+                  <option name="appId" value="com.pixelshift.shift" />
+                  <option name="mobileSdkAppId" value="1:327284618740:android:8f384164bc3ac959b975a1" />
+                  <option name="projectId" value="pixel-shift-08" />
+                  <option name="projectNumber" value="327284618740" />
                 </ConnectionSetting>
               </option>
               <option name="signal" value="SIGNAL_UNSPECIFIED" />
