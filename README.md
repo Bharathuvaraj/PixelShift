@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
 <body>
-	<h1>Pixel Perfect</h1>
-	<p>Pixel Perfect is an Android Final Year Project that focuses on creating a mobile application that allows users to easily capture and edit high-quality images with pixel-perfect accuracy.</p>
+	<h1>PixelShift</h1>
+	<p>Pixel Shift is an Android Final Year Project that focuses on creating a mobile application that allows users to easily capture and edit high-quality images with pixel-perfect accuracy.</p>
 
 <h2>Features</h2>
 <ul>
