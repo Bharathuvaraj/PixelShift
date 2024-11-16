@@ -24,16 +24,3 @@
 	<li>Android SDK</li>
 	<li>Java Development Kit (JDK)</li>
 </ul>
-
-
-	<li>Open the project in Android Studio.</li>
-	<li>Build and run the project on your Android device or emulator.</li>
-</ol>
-
-<h2>Contributing</h2>
-<p>Contributions are welcome! Please create a pull request with your suggested changes.</p>
-
-<h2>License</h2>
-<p>This project is licensed under the <a href="https://opensource.org/licenses/MIT">MIT License</a>.</p>
-</body>
-</html>
