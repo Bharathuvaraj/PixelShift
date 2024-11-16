@@ -25,11 +25,7 @@
 	<li>Java Development Kit (JDK)</li>
 </ul>
 
-<h3>Installation</h3>
-<ol>
-	<li>Clone the repository: 
-		<pre><code>git clone https://github.com/ProHussain/PixelPerfect.git</code></pre>
-	</li>
+
 	<li>Open the project in Android Studio.</li>
 	<li>Build and run the project on your Android device or emulator.</li>
 </ol>
